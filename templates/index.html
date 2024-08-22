@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items with Prices</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .item-card {
+            margin-bottom: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .item-card img {
+            width: 100%;
+            height: auto;
+            max-height: 150px; /* Adjust height as needed */
+            object-fit: cover; /* Ensures the image covers the area */
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .auth-buttons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar with Sign In/Sign Out -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">Items Store</a>
+            <div class="auth-buttons">
+                <a href="/login">Sign In</button>
+                <button class="btn btn-secondary">Sign Out</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Item 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 1</h5>
+                        <p class="card-text">Price: <strong>100 Points</strong></p>
+                        <p class="card-text">Calories: 250</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 2</h5>
+                        <p class="card-text">Price: <strong>150 Points</strong></p>
+                        <p class="card-text">Calories: 300</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 3</h5>
+                        <p class="card-text">Price: <strong>200 Points</strong></p>
+                        <p class="card-text">Calories: 400</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 4</h5>
+                        <p class="card-text">Price: <strong>120 Points</strong></p>
+                        <p class="card-text">Calories: 220</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 5</h5>
+                        <p class="card-text">Price: <strong>180 Points</strong></p>
+                        <p class="card-text">Calories: 350</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card item-card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Item 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 6</h5>
+                        <p class="card-text">Price: <strong>250 Points</strong></p>
+                        <p class="card-text">Calories: 500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
